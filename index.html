@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+  Dodo Dumplings — one-page business card.
+
+  PLACEHOLDERS TO FILL IN (search for "REPLACE"):
+    · phone number      · email address
+    · Instagram / TikTok / Facebook handles
+    · WhatsApp number   · order form / DM link
+    · suburb + pickup address, trading hours
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dodo Dumplings — handmade dumplings, made fresh</title>
+<meta name="description" content="Dodo Dumplings — small-batch, handmade dumplings. Pan-fried, steamed or frozen by the tray. Order for pickup or delivery.">
+<meta name="theme-color" content="#f6ece5">
+
+<!-- Social preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dodo Dumplings">
+<meta property="og:description" content="Handmade dumplings, made fresh in small batches. Est. 2025.">
+<meta property="og:image" content="assets/crispy-plate.jpg">
+
+<link rel="icon" href="assets/logo.jpg">
+<link rel="apple-touch-icon" href="assets/logo.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="phone">
+
+  <!-- ── Hero ─────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <img class="logo" src="assets/logo.jpg" alt="Dodo Dumplings logo — a smiling dumpling wearing a chef's bandana">
+
+    <h1 class="hero__name">Dodo Dumplings</h1>
+    <p class="hero__tag">Handmade, small batch, made fresh.</p>
+
+    <ul class="pills">
+      <li>Pan-fried</li>
+      <li>Steamed</li>
+      <li>Frozen trays</li>
+    </ul>
+
+    <div class="cta">
+      <!-- REPLACE: order link (order form, DM link or Linktree) -->
+      <a class="btn btn--primary" href="#order">Order now</a>
+      <!-- REPLACE: phone number -->
+      <a class="btn btn--ghost" href="tel:+61000000000">Call us</a>
+    </div>
+  </header>
+
+  <!-- ── What we make ─────────────────────────────────── -->
+  <section class="section">
+    <h2 class="h2">What we make</h2>
+    <p class="lede">
+      Every dumpling is folded by hand the same morning it's sold — a thin wrapper,
+      a properly seasoned filling, and a crisp golden bottom if you want one.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <img src="assets/crispy-plate.jpg" alt="A plate of golden pan-fried dumplings arranged around chilli oil" loading="lazy">
+        <div class="card__body">
+          <h3>Pan-fried</h3>
+          <p>Crisp on the bottom, juicy through the middle. Served with our chilli oil.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/steamed-noodles.jpg" alt="Steamed dumplings topped with spring onion, beside noodles and chilli oil" loading="lazy">
+        <div class="card__body">
+          <h3>Steamed</h3>
+          <p>Soft, silky wrappers with spring onion. Add a side of noodles.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="assets/pan-fry.jpg" alt="A pan of dumplings cooking in bubbling water" loading="lazy">
+        <div class="card__body">
+          <h3>Frozen by the tray</h3>
+          <p>Take a tray home and cook them yourself in ten minutes flat.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ── Menu ─────────────────────────────────────────── -->
+  <section class="section section--tint" id="menu">
+    <h2 class="h2">The menu</h2>
+    <!-- REPLACE: fillings, sizes and prices -->
+    <ul class="menu">
+      <li><span class="menu__name">Pork &amp; chive</span><span class="dots"></span><span class="menu__price">$00</span></li>
+      <li><span class="menu__name">Chicken &amp; cabbage</span><span class="dots"></span><span class="menu__price">$00</span></li>
+      <li><span class="menu__name">Beef &amp; onion</span><span class="dots"></span><span class="menu__price">$00</span></li>
+      <li><span class="menu__name">Veggie</span><span class="dots"></span><span class="menu__price">$00</span></li>
+      <li><span class="menu__name">Chilli oil jar</span><span class="dots"></span><span class="menu__price">$00</span></li>
+    </ul>
+    <p class="note">Sold by the dozen. Custom orders and platters welcome — just ask.</p>
+  </section>
+
+  <!-- ── Gallery ──────────────────────────────────────── -->
+  <section class="section">
+    <h2 class="h2">Fresh off the pan</h2>
+    <div class="strip" role="list">
+      <img role="listitem" src="assets/platter.jpg" alt="A blue platter of mixed pan-fried and steamed dumplings with dipping sauce" loading="lazy">
+      <img role="listitem" src="assets/crispy-plate.jpg" alt="Golden pan-fried dumplings fanned around a bowl of chilli oil" loading="lazy">
+      <img role="listitem" src="assets/steamed-noodles.jpg" alt="Steamed dumplings with noodles and chilli oil" loading="lazy">
+      <img role="listitem" src="assets/pan-fry.jpg" alt="Dumplings cooking in a pan" loading="lazy">
+    </div>
+    <p class="note">Swipe for more →</p>
+  </section>
+
+  <!-- ── Order / contact ──────────────────────────────── -->
+  <section class="section section--tint" id="order">
+    <h2 class="h2">Order &amp; find us</h2>
+
+    <div class="info">
+      <!-- REPLACE: hours -->
+      <div class="info__row">
+        <span class="info__label">Hours</span>
+        <span class="info__value">Thu – Sun, 11am – 7pm</span>
+      </div>
+      <!-- REPLACE: suburb / pickup point -->
+      <div class="info__row">
+        <span class="info__label">Pickup</span>
+        <span class="info__value">Your suburb, VIC</span>
+      </div>
+      <!-- REPLACE: delivery radius -->
+      <div class="info__row">
+        <span class="info__label">Delivery</span>
+        <span class="info__value">Local delivery available</span>
+      </div>
+    </div>
+
+    <div class="contact">
+      <!-- REPLACE: all links below -->
+      <a class="row" href="tel:+61000000000">
+        <span class="row__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.25 1z"/></svg>
+        </span>
+        <span class="row__text"><strong>Call or text</strong><small>+61 0000 0000</small></span>
+        <span class="row__go" aria-hidden="true">›</span>
+      </a>
+
+      <a class="row" href="https://wa.me/61000000000">
+        <span class="row__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.6-.1a12 12 0 0 1-5.9-5.1c-.4-.7-.7-1.5-.7-2.2 0-.7.4-1.4.8-1.7.2-.2.4-.2.6-.2h.5c.2 0 .4 0 .6.4l.8 1.9c0 .2 0 .3-.1.5l-.4.5c-.1.2-.3.3-.1.6a8 8 0 0 0 3.6 3.1c.3.1.4.1.6-.1l.7-.8c.2-.2.3-.2.6-.1l1.8.9c.3.1.4.2.4.4v.9z"/></svg>
+        </span>
+        <span class="row__text"><strong>WhatsApp</strong><small>Fastest way to order</small></span>
+        <span class="row__go" aria-hidden="true">›</span>
+      </a>
+
+      <a class="row" href="https://instagram.com/">
+        <span class="row__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.1a1.55 1.55 0 1 1-1.55-1.55A1.55 1.55 0 0 1 18.9 5.2z"/></svg>
+        </span>
+        <span class="row__text"><strong>Instagram</strong><small>@dododumplings</small></span>
+        <span class="row__go" aria-hidden="true">›</span>
+      </a>
+
+      <a class="row" href="https://tiktok.com/">
+        <span class="row__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M16.5 2h-3v13.2a2.7 2.7 0 1 1-2.2-2.7v-3a5.7 5.7 0 1 0 5.2 5.7V9.3a7 7 0 0 0 4 1.3v-3a4 4 0 0 1-4-3.9V2z"/></svg>
+        </span>
+        <span class="row__text"><strong>TikTok</strong><small>@dododumplings</small></span>
+        <span class="row__go" aria-hidden="true">›</span>
+      </a>
+
+      <a class="row" href="mailto:hello@example.com">
+        <span class="row__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 8L4.2 7.4v.1L12 13l7.8-5.5v-.1z"/></svg>
+        </span>
+        <span class="row__text"><strong>Email</strong><small>hello@dododumplings.com</small></span>
+        <span class="row__go" aria-hidden="true">›</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────── -->
+  <footer class="footer">
+    <p class="footer__mark">est. 2025</p>
+    <p class="footer__copy">© <span id="year">2025</span> Dodo Dumplings · Made with a lot of folding.</p>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
