@@ -3,6 +3,16 @@
 A single-page "business card" site for Dodo Dumplings. Plain HTML + CSS, no build step,
 no dependencies. Mobile-first — designed at phone width and centred as a card on desktop.
 
+**Live:** https://alibazzi2310.github.io/dodo-dumplings-site/
+
+## Deploying
+
+Every push to `main` publishes automatically via `.github/workflows/pages.yml`.
+Nothing to run by hand — check the Actions tab if a change doesn't show up.
+
+If the site ever moves to its own domain, update the two absolute `og:` URLs in
+`index.html` (link previews in WhatsApp/Instagram won't load the photo otherwise).
+
 ## Run it
 
 Open `index.html` in a browser, or serve the folder:
