@@ -26,7 +26,6 @@ Everything that needs real details is marked with a `REPLACE` comment in `index.
 - phone number (`tel:` links, appears twice) and WhatsApp number
 - Instagram / TikTok handles and links
 - email address
-- menu items and prices
 - trading hours, pickup suburb, delivery area
 - the "Order now" button currently jumps to the contact section — point it at an
   order form or DM link if you have one

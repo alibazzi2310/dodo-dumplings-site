@@ -1,5 +1,19 @@
 /* ===========================================================
-   Dodo Dumplings — palette pulled straight from the logo
+   Dodo Dumplings
+   Fonts are self-hosted (assets/fonts) so the site works
+   offline and doesn't wait on a third-party CDN.
+   =========================================================== */
+@font-face{ font-family:'Baloo 2'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('assets/fonts/baloo2-700.woff2') format('woff2'); }
+@font-face{ font-family:'Baloo 2'; font-style:normal; font-weight:800; font-display:swap;
+  src:url('assets/fonts/baloo2-800.woff2') format('woff2'); }
+@font-face{ font-family:'Nunito'; font-style:normal; font-weight:400; font-display:swap;
+  src:url('assets/fonts/nunito-400.woff2') format('woff2'); }
+@font-face{ font-family:'Nunito'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('assets/fonts/nunito-700.woff2') format('woff2'); }
+
+/* ===========================================================
+   Palette pulled straight from the logo
    =========================================================== */
 :root{
   --blush:      #eac2b4;   /* logo disc                */
@@ -227,7 +241,18 @@ a{ color:inherit; }
 .card__body p{ margin:0; font-size:.94rem; color:var(--brown-soft); }
 
 /* ── Menu list ───────────────────────────────────────── */
-.menu{ list-style:none; margin:20px 0 0; padding:0; }
+.menu__group{
+  font-family:var(--font-head);
+  font-weight:700;
+  font-size:.88rem;
+  letter-spacing:1.6px;
+  text-transform:uppercase;
+  color:var(--brown-soft);
+  margin:26px 0 2px;
+}
+.menu__group:first-of-type{ margin-top:20px; }
+
+.menu{ list-style:none; margin:0; padding:0; }
 .menu li{
   display:flex;
   align-items:baseline;
@@ -237,7 +262,13 @@ a{ color:inherit; }
 }
 .menu li:last-child{ border-bottom:0; }
 .menu__name{ font-weight:700; }
-.menu__price{ font-family:var(--font-head); font-weight:700; color:var(--brown-deep); }
+.menu__price{
+  font-family:var(--font-head);
+  font-weight:700;
+  color:var(--brown-deep);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
 .dots{ flex:1 1 auto; border-bottom:2px dotted rgba(91,67,64,.28); transform:translateY(-3px); }
 
 /* ── Photo strip ─────────────────────────────────────── */
